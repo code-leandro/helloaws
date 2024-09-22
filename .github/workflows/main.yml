@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: HML
 
     steps:
       - name: Verify AWS CLI Installation
