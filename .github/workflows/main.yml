@@ -43,4 +43,4 @@ jobs:
       # Push da imagem para o ECR
       - name: Push Docker image to Amazon ECR
         run: |
-          docker push 024848472141.dkr.ecr.us-east-2.amazonaws.com/repository_name:latest
+          docker push 024848472141.dkr.ecr.us-east-2.amazonaws.com/helloaws:latest
