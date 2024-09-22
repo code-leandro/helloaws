@@ -15,7 +15,7 @@ jobs:
         run: aws --version
 
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.0
 
       # Setup do AWS CLI
       - name: Configure AWS credentials
