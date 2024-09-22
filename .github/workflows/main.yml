@@ -10,13 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout do código
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Verify AWS CLI Installation
+        run: aws --version
 
       - name: Verify AWS credentials
         run: aws sts get-caller-identity
 
+      - name: Checkout code
+        uses: actions/checkout@v2
 
       # Setup do AWS CLI
       - name: Configure AWS credentials
