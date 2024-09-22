@@ -38,7 +38,7 @@ jobs:
       # Tag da imagem com o SHA do commit
       - name: Tag the Docker image
         run: |
-          docker tag repository_name:024848472141.dkr.ecr.us-east-2.amazonaws.com/helloaws:latest
+          docker tag 024848472141.dkr.ecr.us-east-2.amazonaws.com/helloaws:latest
 
       # Push da imagem para o ECR
       - name: Push Docker image to Amazon ECR
