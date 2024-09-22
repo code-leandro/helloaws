@@ -21,9 +21,8 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v2
         with:
           aws-region: us-east-2
-        env:
-          aws-access-key-id: ${{ vars.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ vars.AWS_SECRET_ACCESS_KEY }}
+          aws-access-key-id: AKIAQLSIVTBGQYK7FIE4
+          aws-secret-access-key: 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
             # Ajuste para sua região
 
       # Login no Amazon ECR
